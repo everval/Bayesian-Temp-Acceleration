@@ -54,6 +54,7 @@ def custom_longitude_formatter(lon, pos):
     direction = "E" if lon >= 0 else "W"
     return f"{abs(int(lon))}°{direction}"
 
+def grf(a):
     """
     Interpolate missing grid-cell values using a Gaussian random field.
 
