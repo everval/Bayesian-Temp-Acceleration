@@ -22,18 +22,16 @@ The main files and directories are:
 * `grf.py`: spatial interpolation of missing posterior estimates using a Gaussian random field, generation of spatial figures, and calculation of threshold-exceedance summaries.
 * `paper.pdf`: the published paper, added when available.
 * `supplement.pdf`: the supplementary material, added when available.
-* `figures/`: selected final figures from the paper.
-* `data/`: local input data. This directory is excluded from version control.
-* `results/`: generated intermediate results and figures. This directory is excluded from version control.
+* `figures/`: selected final figures from the paper, added when available.
 
 ## Selected results
 
-Selected figures from the study are included in the `figures/` directory.
+Selected figures from the study are included.
 
 For example:
 
 ```markdown
-![Timing of detectable temperature acceleration in HadCRUT5 at the 50% and 90% posterior probability thresholds.](figures/exceeded_combined_HC.png)
+![Timing of detectable temperature acceleration in HadCRUT5 at the 50% and 90% posterior probability thresholds.](exceeded_combined_HC.png)
 ```
 
 The full set of results and their interpretation are provided in the paper and supplementary material.
